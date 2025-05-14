@@ -68,8 +68,7 @@
 // npm install @google/genai mime
 // npm install -D @types/node
 
-// import { GoogleGenAI } from "@google/genai";
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenAI } from "@google/genai";
 
 async function main(input) {
   const ai = new GoogleGenAI({
